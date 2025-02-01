@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Inter_ExtraBold";
+  src: url(../fonts/Inter_28pt-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Merriweather-light";
+  src: url(../fonts/Merriweather-Light.ttf);
+}
+header .img-banner {
+  background: url(../img/bg.jpg) fixed center/cover;
+}
+header h1 {
+  font-size: 3rem;
+  font-family: Inter_ExtraBold, sans-serif;
+}
+header p {
+  font-family: Merriweather-light, sans-serif;
+}/*# sourceMappingURL=index.css.map */
