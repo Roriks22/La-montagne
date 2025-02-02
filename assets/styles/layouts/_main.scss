@@ -63,7 +63,8 @@
     .left-part {
         width: 50%;
         margin: 0 auto;
-        border: 1px solid $grey1;
+        border-top: 1px solid $grey1;
+        border-right: 1px solid $grey1;
         padding: 70px 20px 0 20px;
         span {
             font-size: 0.9rem;

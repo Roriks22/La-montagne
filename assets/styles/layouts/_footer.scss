@@ -1,0 +1,60 @@
+footer {
+    width: 85%;
+    max-height: 600px;
+    background: $grey2;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-area: 
+    "i1 ad"
+    "i2 ph"
+    "mes ema"
+    "btn soc";
+    form {
+        display: grid;
+        padding: 50px;
+        border-right: 1px solid $grey1;
+        
+        label {
+            font-family: Merriweather-light, sans-serif;
+            @include title;
+            font-size: 0.8rem;
+            color: $grey3;
+            text-align: left;
+            padding: 20px 0;
+            font-weight: 900;
+        }
+        input[type="text"] #name {
+            grid-area: i1;
+        }
+        input[type="text"] {
+            padding: 12px;
+            border: 1px solid $grey1;
+            border-radius: 5px;
+            background: transparent;
+        }
+        input[type="text"] #email {
+            grid-area: i2;
+        }
+        textarea #message {
+            grid-area: mes;
+        }
+        textarea {
+            height: 180px;
+            border: 1px solid $grey1;
+            border-radius: 5px;
+            background: transparent;
+            resize: none;
+        }
+        input[type="submit"] {
+            grid-area: btn;
+            margin: 40px 0;
+        }
+        .submit-container {
+            text-align: left;
+        }
+    }
+    
+   
+}

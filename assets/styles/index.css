@@ -280,7 +280,8 @@ header nav .nav-right li:hover {
 #main .section-2 .left-part {
   width: 50%;
   margin: 0 auto;
-  border: 1px solid rgb(209, 209, 209);
+  border-top: 1px solid rgb(209, 209, 209);
+  border-right: 1px solid rgb(209, 209, 209);
   padding: 70px 20px 0 20px;
 }
 #main .section-2 .left-part span {
@@ -330,4 +331,60 @@ header nav .nav-right li:hover {
 }
 #main .section-2 .right-part .btn {
   font-weight: 900;
+}
+
+footer {
+  width: 85%;
+  max-height: 600px;
+  background: rgb(233, 233, 233);
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-area: "i1 ad" "i2 ph" "mes ema" "btn soc";
+}
+footer form {
+  display: grid;
+  padding: 50px;
+  border-right: 1px solid rgb(209, 209, 209);
+}
+footer form label {
+  font-family: Merriweather-light, sans-serif;
+  font-family: Inter-ExtraBold, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: rgb(105, 105, 105);
+  text-align: left;
+  padding: 20px 0;
+  font-weight: 900;
+}
+footer form input[type=text] #name {
+  grid-area: i1;
+}
+footer form input[type=text] {
+  padding: 12px;
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 5px;
+  background: transparent;
+}
+footer form input[type=text] #email {
+  grid-area: i2;
+}
+footer form textarea #message {
+  grid-area: mes;
+}
+footer form textarea {
+  height: 180px;
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 5px;
+  background: transparent;
+  resize: none;
+}
+footer form input[type=submit] {
+  grid-area: btn;
+  margin: 40px 0;
+}
+footer form .submit-container {
+  text-align: left;
 }/*# sourceMappingURL=index.css.map */
