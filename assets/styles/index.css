@@ -253,14 +253,81 @@ header nav .nav-right li:hover {
   padding: 40px 0;
 }
 #main .section-1 p {
-  width: 45%;
-  line-height: 40px;
+  width: 60%;
+  line-height: 35px;
   margin: 0 auto;
   padding-bottom: 40px;
+  font-style: italic;
 }
 #main .section-1 img {
   width: 85%;
 }
 #main .section-1 .btn {
   margin: 50px 0 90px 0;
+  font-weight: 900;
+}
+#main .section-2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 60px;
+  min-height: 75vh;
+}
+#main .section-2 img {
+  width: 85%;
+}
+#main .section-2 .left-part {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid rgb(209, 209, 209);
+  padding: 70px 20px 0 20px;
+}
+#main .section-2 .left-part span {
+  font-size: 0.9rem;
+}
+#main .section-2 .left-part h3 {
+  font-family: Inter-ExtraBold, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 20px;
+  line-height: 30px;
+}
+#main .section-2 .left-part p {
+  padding: 30px;
+  width: 90%;
+  line-height: 30px;
+  margin: 0 auto;
+  font-style: italic;
+  text-align: left;
+}
+#main .section-2 .left-part .btn {
+  font-weight: 900;
+}
+#main .section-2 .right-part {
+  width: 50%;
+  margin: 0 auto;
+  border-top: 1px solid rgb(209, 209, 209);
+  padding: 70px 20px 50px 20px;
+}
+#main .section-2 .right-part span {
+  font-size: 0.9rem;
+}
+#main .section-2 .right-part h3 {
+  font-family: Inter-ExtraBold, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 20px;
+  line-height: 30px;
+}
+#main .section-2 .right-part p {
+  padding: 30px;
+  width: 90%;
+  line-height: 30px;
+  margin: 0 auto;
+  font-style: italic;
+  text-align: left;
+}
+#main .section-2 .right-part .btn {
+  font-weight: 900;
 }/*# sourceMappingURL=index.css.map */
