@@ -20,6 +20,10 @@
                 background: $grey1;
                 top: 50%;
                 transform: translateY(-50%);
+
+                @media screen and (max-width: 720px) {
+                    width: 20%;
+                }
             }
 
             &::before {
@@ -33,6 +37,10 @@
             @include title;
             font-size: 3rem;
             padding: 40px 0;
+
+            @media screen and (max-width: 720px) {
+                font-size: 2rem;
+            }
         }
         p {
             width: 60%;
@@ -40,6 +48,10 @@
             margin: 0 auto;
             padding-bottom: 40px;
             font-style: italic;
+
+            @media screen and (max-width: 720px) {
+                width: 100%;
+            }
         }
         img {
             width: 85%;
@@ -60,12 +72,23 @@
         width: 85%;
     }
 
+    @media screen and (max-width: 720px) {
+        padding-top: 0;
+        border-right: none;
+        display: block;
+    }
+
     .left-part {
         width: 50%;
         margin: 0 auto;
         border-top: 1px solid $grey1;
         border-right: 1px solid $grey1;
         padding: 70px 20px 0 20px;
+
+        @media screen and (max-width: 720px) {
+            width: 100%;
+            border-right: none;
+        }
         span {
             font-size: 0.9rem;
         }
@@ -81,6 +104,10 @@
             margin: 0 auto;
             font-style: italic;
             text-align: left;
+
+            @media screen and (max-width: 720px) {
+                width: 100%;
+            }
         }
         .btn {
             font-weight: 900;
@@ -91,6 +118,12 @@
         margin: 0 auto;
         border-top: 1px solid $grey1;
         padding: 70px 20px 50px 20px;
+
+        @media screen and (max-width: 720px) {
+            width: 100%;
+            border-top: none;
+        }
+
         span {
             font-size: 0.9rem;
         }
@@ -106,10 +139,14 @@
             margin: 0 auto;
             font-style: italic;
             text-align: left;
+
+            @media screen and (max-width: 720px) {
+                width: 100%;
+            }
         }
         .btn {
             font-weight: 900;
         }
     }
-    }
+}
 }

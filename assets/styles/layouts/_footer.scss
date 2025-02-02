@@ -11,6 +11,10 @@ footer {
     "i2 ph"
     "mes ema"
     "btn soc";
+
+    @media screen and (max-width: 800px) {
+        display: block;
+    }
     form {
         display: grid;
         padding: 50px 50px 0 50px;
@@ -64,6 +68,10 @@ footer {
     .infos-contact {
         display: grid;
         grid-template-rows: repeat(4, 1fr);
+
+        @media screen and (max-width: 800px) {
+            background: $grey2;
+        }
 
         div {
             border-bottom: 1px solid $grey1;
